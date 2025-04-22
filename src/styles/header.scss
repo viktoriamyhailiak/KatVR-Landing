@@ -113,7 +113,7 @@
   &__play-video {
     grid-column: 1/-1;
     margin-bottom: 46px;
-    
+
     @include on-tablet {
       margin-bottom: 61px;
     }
@@ -125,12 +125,12 @@
   }
 
   &__bottom {
-    z-index: 2;
     display: none;
+    z-index: 2;
 
     @include on-desktop {
       display: flex;
-      grid-column: 1/-1;
+      grid-column: 1/8;
       gap: 404px;
       padding-block: 84px;
     }
