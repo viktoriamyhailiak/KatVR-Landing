@@ -989,7 +989,7 @@
             </a>
             <script>
               document
-                .getElementById('form-pay')
+                .getElementById('.form-pay')
                 .addEventListener('submit', function (e) {
                   e.preventDefault();
                   document
@@ -1074,6 +1074,12 @@
               <p class="total__title">Quantity</p>
 
               <form class="total__quantity-form form">
+                <input
+                  type="hidden"
+                  name="quantity"
+                  id="hidden-quantity-pay"
+                />
+
                 <div class="form__element">
                   <select
                     name="quantity"
